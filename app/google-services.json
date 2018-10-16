@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "630888488554",
+    "firebase_url": "https://demoproject-53e30.firebaseio.com",
+    "project_id": "demoproject-53e30",
+    "storage_bucket": "demoproject-53e30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630888488554:android:007f1929c0518f7f",
+        "android_client_info": {
+          "package_name": "com.example.evaaherne.helloworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630888488554-rnkldml1klnj8hi6ag592buvbtcuvp2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGitT7ItI4f3UcjMNpfn3g5ShTAz_2Jj4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
