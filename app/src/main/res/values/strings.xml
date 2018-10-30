@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FoodHive</string>
+
+    <string name="add_Artist">Add Artist</string>
+
+    <string name="edit_name">Name</string>
+    <array name="spinner_genre">
+        <item>Punk</item>
+        <item>Rock</item>
+        <item>HipHop</item>
+    </array>
+</resources>
