@@ -16,7 +16,7 @@ public class RegisterActivity extends AppCompatActivity {
 
 
     EditText editTextName;
-    EditText editTextUsername;
+    EditText editTextEmail;
     EditText editTextPassword;
     CheckBox checkBoxNuts;
     CheckBox checkBoxDairy;
@@ -38,7 +38,7 @@ public class RegisterActivity extends AppCompatActivity {
         databaseUsers = FirebaseDatabase.getInstance().getReference(getString(R.string.users));
 
         editTextName = findViewById(R.id.editTextName);
-        editTextUsername = findViewById(R.id.editTextUsername);
+        editTextEmail = findViewById(R.id.editTextEmail);
         editTextPassword = findViewById(R.id.editTextPassword);
         checkBoxNuts = findViewById(R.id.checkBoxNuts);
         checkBoxDairy = findViewById(R.id.checkBoxDairy);
@@ -82,7 +82,7 @@ public class RegisterActivity extends AppCompatActivity {
 
     private void addUser(){
         String name = editTextName.getText().toString().trim();
-        String username = editTextUsername.getText().toString().trim();
+        String username = editTextEmail.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();
         String nutsValue = nuts;
         String dairyValue = dairy;

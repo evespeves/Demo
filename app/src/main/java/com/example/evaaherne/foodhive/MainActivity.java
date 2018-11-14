@@ -23,9 +23,9 @@ public class MainActivity extends AppCompatActivity {
 
         buttonLogin.setOnClickListener(new View.OnClickListener() {
            public void onClick(View v){
-               Intent i = new Intent(getApplicationContext(), LoginActivity.class);
+               Intent i = new Intent(getApplicationContext(), User_detail.class);
                startActivity(i);
-               setContentView(R.layout.activity_login);
+               setContentView(R.layout.activity_user_detail);
                }
         });
 
